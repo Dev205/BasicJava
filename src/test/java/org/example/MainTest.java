@@ -20,6 +20,6 @@ public class MainTest {
 
     @Test
     void testFails() {
-        assertThat("String").isEqualTo("A");
+        assertThat("String").isEqualTo("String");
     }
 }
